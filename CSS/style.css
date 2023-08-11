@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --primary-color: #0D1282;
+    --secondary-color: #EEEDED;
+    --tertiary-color: #EEEDED;
+    --action-color: #F0DE36;
+    --texture-color: #D71313;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    /* background: #222222; */
+    font-family: 'Montserrat', sans-serif;
+}
+img {
+    background-color: #fff;
+    display: block;
+    width: 20%;
+    margin: auto;
+}
+.container {
+    padding: 2.5rem 4.5rem;
+}
+
+.alert {
+    background-color: var(--primary-color);
+    width: 100%;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.alert h2 {
+    margin-top: 20px;
+}
+
+.alert p {
+    line-height: 1.9em;
+    font-size: 1.0rem;
+}
+
+.radiobtn {
+    padding: 1.2rem;
+}
+
+input {
+    appearance: none;
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+    width: 1.2rem;
+    height: 1.2rem;
+    transition: .2s all linear;
+    position: relative;
+    top: 4px;
+    cursor: pointer;
+    margin-right: 7px;
+}
+
+input:checked {
+    border: 6px solid var(--primary-color);
+}
